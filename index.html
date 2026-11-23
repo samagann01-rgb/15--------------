@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="welcome">
+        <div class="logo">✦</div>
+        <h2>Добро пожаловать!</h2>
+        <p>Создайте аккаунт и откройте новые возможности.</p>
+        <div class="decoration">✧</div>
+    </div>
+
+    <div class="form-box">
+        <h1>Регистрация</h1>
+        <p class="subtitle">Заполните данные для создания аккаунта</p>
+
+        <form id="form">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Ваше имя">
+
+            <label for="email">Электронная почта</label>
+            <input id="email" type="email" placeholder="name@example.com">
+
+            <label for="password">Пароль</label>
+            <input id="password" type="password" placeholder="Минимум 8 символов">
+
+            <label for="confirm">Повторите пароль</label>
+            <input id="confirm" type="password" placeholder="Введите пароль ещё раз">
+
+            <label class="check">
+                <input id="terms" type="checkbox">
+                Я принимаю условия использования
+            </label>
+
+            <button type="submit">Создать аккаунт →</button>
+            <p id="message"></p>
+        </form>
+
+        <p class="footer">Быстро · Просто · Безопасно</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
